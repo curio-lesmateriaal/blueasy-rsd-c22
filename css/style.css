@@ -22,7 +22,7 @@ header .container
 }
 
 header{
-    background-color: #4a545c;
+    background-color: rgba(74, 84, 92, 0.8);
     padding: 40px;
 }
 
