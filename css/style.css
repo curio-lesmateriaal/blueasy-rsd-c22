@@ -70,3 +70,30 @@ header span{
     line-height: 1.5;
     background-color: rgba(74, 84, 92, 0.8);
 }
+
+.section-services{
+    background-color: #4bcaff;
+    padding: 40px 0;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+h1 span{
+    border-bottom: 3px solid white;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service img, .service h2, .service p{
+    margin-top: 10px;
+}
+
+h1, h2{
+    text-transform: uppercase;
+}
