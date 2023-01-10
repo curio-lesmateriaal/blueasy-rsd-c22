@@ -55,6 +55,16 @@
             </div>
         </div>
     </div>
+    <div class="section-testimonials">
+        <div class="container">
+            <div class="testimonials-header">
+                <h1><span>Tes</span>timonials</h1>
+                <span class="right-quote">"</span>
+            </div>
+            <p class="citaat"><?php echo file_get_contents('testimonial_citaat.txt'); ?></p>
+            <p class="naam"> - Walter White</p>
+        </div>
+    </div>
 
 </body>
 </html>

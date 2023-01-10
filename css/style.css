@@ -97,3 +97,34 @@ h1 span{
 h1, h2{
     text-transform: uppercase;
 }
+
+.section-testimonials{
+    padding: 40px 0;
+}
+
+.section-testimonials  *{
+    color:rgb(74, 84, 92);
+}
+
+.section-testimonials h1 span{
+    border-bottom-color: rgb(74, 84, 92);
+}
+
+.testimonials-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-quote{
+    font-size: 50px;
+}
+
+.section-testimonials p.citaat{
+    font-size: 20px;
+}
+
+.section-testimonials p.naam{
+    margin: 20px 0;
+    font-weight: bold;
+    color: #4bcaff;
+}
