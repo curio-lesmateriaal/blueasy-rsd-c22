@@ -22,7 +22,7 @@ header .container
 }
 
 header{
-    background-color: #4a545c;
+    background-color: rgba(74, 84, 92, 0.8);
     padding: 40px;
 }
 
@@ -60,4 +60,12 @@ header span{
 .quotes{
     padding-top: 200px;
     padding-bottom: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.quotes p{
+    display: inline-block;
+    background-color: rgba(74, 84, 92, 0.8);
 }
