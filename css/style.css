@@ -66,6 +66,7 @@ header span{
 }
 
 .quotes p{
-    display: inline-block;
+    display: inline;
+    line-height: 1.5;
     background-color: rgba(74, 84, 92, 0.8);
 }
