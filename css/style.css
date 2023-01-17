@@ -1,6 +1,9 @@
 *{
     padding: 0;
     margin: 0;
+}
+
+html, a{
     color: white;
     font-family: 'Segoe UI';
 }
@@ -77,11 +80,18 @@ header span{
     padding-bottom:50px;
 }
 
-.services p span {
+/* .services p span {
     text-decoration: underline;
 }
-
 .services .titel {
+    margin-bottom:10px;
+    font-size: 25px;
+} */
+
+.titel span {
+    text-decoration: underline;
+}
+.titel {
     margin-bottom:10px;
     font-size: 25px;
 }
@@ -105,4 +115,31 @@ header span{
 
 .serviceText {
     font-size: 13px;
+}
+
+.testimonials{
+    color:rgba(74, 84, 92);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonials-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote{
+    font-size: 40px;
+}
+
+.citaat{
+    font-size: 24px;
+    line-height: 44px;
+}
+
+.signoff{
+    color: #4bcaff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
 }

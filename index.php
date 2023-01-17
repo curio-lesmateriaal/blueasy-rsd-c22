@@ -58,5 +58,20 @@
         </div>
     </div>
 
+    <div class="testimonials">
+        <div class="container">
+            <div class="testimonials-header">
+                <p class="titel"><span>TES</span>TIMONIALS</p>
+                <p class="quote">”</p>
+            </div>
+            <div class="citaat">
+                <?php echo file_get_contents('doc/testimonial_citaat.txt'); ?>
+            </div>
+            <div class="signoff">
+                 - Walter White
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
