@@ -73,5 +73,24 @@
         </div>
     </div>
 
+    <div class="contact">
+        <div class="container">
+            <div class="contact-header">
+                <p class="titel"><span>CO</span>NTACT</p>
+            </div>
+            <div class="contactform">
+                <form>
+                    <div>
+
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias dolores iure laboriosam maxime odio rerum ut, voluptatibus voluptatum! A cum error facere harum id in, ipsum laboriosam nemo numquam?
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 </html>

@@ -90,6 +90,7 @@ header span{
 
 .titel span {
     text-decoration: underline;
+    text-underline-offset: 5px;
 }
 .titel {
     margin-bottom:10px;
@@ -142,4 +143,10 @@ header span{
     font-size: 12px;
     font-weight: bold;
     margin-top: 12px;
+}
+
+.contact{
+    background: url(../img/Contact_photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
