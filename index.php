@@ -78,16 +78,24 @@
             <div class="contact-header">
                 <p class="titel"><span>CO</span>NTACT</p>
             </div>
-            <div class="contactform">
-                <form>
-                    <div>
-
+            <form action="backend/contactform.php" method="post">
+                <div class="contactform">
+                    <div class="contactinputs">
+                        <label for="fullname">FULL NAME</label>
+                        <input type="text" name="fullname">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email">
                     </div>
                     <div>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias dolores iure laboriosam maxime odio rerum ut, voluptatibus voluptatum! A cum error facere harum id in, ipsum laboriosam nemo numquam?
                     </div>
-                </form>
-            </div>
+                </div>
+                <div>
+                    <label for="message">MESSAGE</label>
+                    <textarea name="message" rows="10"></textarea>
+                    <input type="submit" class="sendbutton" value="MESSAGE">
+                </div>
+            </form>
 
         </div>
     </div>

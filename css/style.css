@@ -150,3 +150,43 @@ header span{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.contactform {
+    display:flex;
+    justify-content: space-between;
+}
+
+.contactinputs label, input {
+    display: block;
+    background: transparent;
+}
+
+.contactinputs input {
+    border: 2px solid white;
+    width: 400px;
+    height: 30px;
+    margin-bottom:15px;
+}
+
+label {
+    font-weight: bold;
+    font-size:12px;
+}
+
+.contactinputs {
+    margin-right:50px;
+}
+
+textarea {
+    width: 100%;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.sendbutton {
+    background-color: #4bcaff;
+    color: white;
+    padding: 15px 100px;
+    margin-top: 15px;
+    border: none;
+}
